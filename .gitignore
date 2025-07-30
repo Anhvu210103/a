@@ -1,0 +1,172 @@
+# Môi trường ảo
+videotransformer_env/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model files (comment nếu muốn commit model)
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.h5
+
+# Data files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Test outputs
+test_results/
+outputs/
+logs/
+*.json
+*.png
+*.jpg
+*.jpeg
+
+# Temporary files
+*.tmp
+*.temp
+dummy_*.mp4
+dummy_*.avi
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+desktop.ini
+
+# Video Fraud Detection System - Thêm các file cụ thể
+# Model files (có thể rất lớn, không push lên git)
+vivit_model.pth
+epoch=*.ckpt
+video_transformer_model.ckpt
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+
+# Kết quả phân tích (output tự động tạo)
+detected_violations/
+analysis_results/
+output/
+temp/
+temporary/
+gradcam_analysis/
+
+# Log files từ detection system
+detection_*.log
+fraud_analysis_*.log
+
+# Test videos và demo files
+test_videos/
+demo_videos/
+sample_*.mp4
+
+# Configuration files có thể chứa đường dẫn cụ thể
+local_config.json
+user_settings.json
+
+# Explainable AI outputs
+explanation_*.png
+gradcam_*.jpg
+heatmap_*.png
+
+# Performance logs
+performance_stats.json
+detection_metrics.csv
+
+# Data crawling folder - không push lên git
+"Cào Ý tưởng Ai/"
+Cào*
+
+# Backup files
+*.backup
+*.new
+*.bak
+
+# HTML reports (tự động tạo)
+*.html
